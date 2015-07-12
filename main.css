@@ -62,10 +62,12 @@ Header Image
 
 .header-wrapper {
   margin-top: 70px;
+  width: 100%;
+  height: 100%;
 }
 
 .header-image img {
-
+  width: 
 }
 
 /*
@@ -85,6 +87,7 @@ Header Text
 .header-text-wrapper {
   height: 100px;
   background-color: #333333;
+  width: 100%;
 }
 
 /*
@@ -101,6 +104,82 @@ Header Subtitle
 
 .header-subtitle-wrapper {
   height: 50px;
+  width: 100%;
+}
+
+/*
+==================================
+Main Content
+==================================
+*/
+
+/*
+==================================
+Footer
+==================================
+*/
+
+.footer-wrapper {
+  text-align: center;
+  width: 100%;
+  background-color: #333333;
+}
+
+.contact {
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  color: #FE9800;
+}
+
+.phone-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.phone-icon img {
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
+}
+
+.phone-number {
+  display: inline-block;
+  line-height: 50px;
+  color: #fff;
+}
+
+.phone-number .number {
+  margin: 0 auto;
+}
+
+.phone-wrapper {
+  height: 50px;
+  width: 100%;
+}
+
+.email-wrapper {
+  height: 50px;
+  width: 100%;
+}
+
+.email {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.email-contact {
+  display: inline-block;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+}
+
+.email-icon img {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  padding-right: 10px;
 }
 
 
