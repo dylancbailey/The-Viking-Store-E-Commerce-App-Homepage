@@ -113,6 +113,70 @@ Main Content
 ==================================
 */
 
+.main-content-wrapper {
+  width: 100%;
+  height: 900px;
+}
+
+.top-row {
+  width: 60%;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-row {
+  width: 60%;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-row div {
+  background-color: #444;
+  display: inline-block;
+  height: 80%;
+  width: 300px;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.top-row div {
+  background-color: #444;
+  display: inline-block;
+  height: 80%;
+  width: 300px;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.silent-night img {
+  height: 70%;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.top-text {
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.buy {
+  color: #000;
+  background-color: #FE9800;
+  width: 50%;
+  height: 30px;
+  margin: 10px auto;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
 /*
 ==================================
 Footer
