@@ -2,6 +2,10 @@ div {
   border: 1px solid gray;
 }
 
+body {
+  font-family: helvetica, sans-serif;
+}
+
 
 /*
 ==================================
@@ -64,15 +68,40 @@ Header Image
 
 }
 
+/*
+==================================
+Header Text
+==================================
+*/
+
 .header-text h2 {
   text-align: center;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
+  line-height: 100px;
+  color: #fff;
 }
 
+.header-text-wrapper {
+  height: 100px;
+  background-color: #333333;
+}
 
+/*
+==================================
+Header Subtitle
+==================================
+*/
 
+.header-subtitle h3 {
+  text-align: center;
+  font-size: 26px;
+  line-height: 50px;
+}
 
+.header-subtitle-wrapper {
+  height: 50px;
+}
 
 
 
